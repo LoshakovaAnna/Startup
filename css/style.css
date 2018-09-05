@@ -8,10 +8,14 @@
 .row{
     display: flex;
     flex-direction: row;
+    
+    justify-content: space-between;
 }
 .column{
     display: flex;
     flex-direction: column;
+    
+    justify-content: space-between;
 }
 .home-section{
     min-width: 1600px;
@@ -301,3 +305,6 @@ height: 16px;*/
     color:#c0301c;
 }
 
+.works-content-img{
+    width: 100%
+}
