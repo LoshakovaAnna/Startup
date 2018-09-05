@@ -1,0 +1,87 @@
+@font-face {
+  font-family:"Montserrat-Regular";
+  src:
+  url("../fonts/Montserrat-Regular.woff") format("woff"),
+  url("../fonts/Montserrat-Regular.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:"Montserrat-Bold";
+  src:
+  url("../fonts/Montserrat-Bold.woff") format("woff"),
+  url("../fonts/Montserrat-Bold.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:"RobotoSlab-Regular";
+  src:
+  url("../fonts/RobotoSlab-Regular.woff") format("woff"),
+  url("../fonts/RobotoSlab-Regular.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+@font-face {
+  font-family:"RobotoSlab-Bold";
+  src:
+  url("../fonts/RobotoSlab-Bold.woff") format("woff"),
+  url("../fonts/RobotoSlab-Bold.ttf") format("truetype");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face{
+  font-family: 'FontAwesome-Webfont';
+  src: url('../fonts/fontawesome-webfont.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+
+@font-face {font-family:'Lato';
+    src: url('../fonts/Lato-Regular.woff') format("woff");
+     font-weight:normal;
+     font-style:normal;
+}
+@font-face {font-family:'Lato Light';
+  src: url('../fonts/Lato-Light.woff') format("woff");
+   font-weight:normal;
+   font-style:normal;
+}
+@font-face {font-family:'Lato Bold';
+src: url('../fonts/Lato-Bold.woff') format("woff");
+  font-weight:normal;
+  font-style:normal;
+}
+
+@font-face{
+  font-family: 'Open Sans Light';
+  src:url('../fonts/OpenSans-Light.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face{
+  font-family: 'BrandonGrotesque Black';
+  src:url('../fonts/BrandonGrotesque-Black.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Gotham Black';
+  src:url('../fonts/gotham-black.woff') format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Open Sans';
+  src:url('../fonts/OpenSans.ttf') format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}

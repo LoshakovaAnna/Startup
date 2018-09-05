@@ -1,0 +1,303 @@
+@import url("fonts.css") all;
+@import url("reset.css") all;
+
+.centr-position{
+    width:1140px;
+    margin: 0 auto;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.home-section{
+    min-width: 1600px;
+    background-image: url(../img/home-background.png);
+    background-repeat:  no-repeat;
+    background-size: cover; 
+    height: 770px;
+
+    line-height: 24px;
+    color: #ffffff;
+}
+.pad-t-40{
+    padding-top: 40px;
+}
+.name-proj{ 
+    width: 91px;
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.menu-link{
+
+    text-decoration: none;
+    /*
+    width: 540px;
+    height: 14px;*/
+    
+    color: #ffffff;
+    font-family: "Montserrat-Regular";
+    font-size: 14px;    
+    
+    letter-spacing: 0.35px;
+}
+.menu-nav{
+    justify-content:space-between;
+    width: 540px;
+    margin-left: 510px;
+    margin-top: 5px;
+}
+
+.header-block{
+    width: 581px;
+    margin: 0 auto;
+    margin-top: 260px;    
+    text-align: center;
+}
+.header-title{
+    font-size: 48px;
+    font-family:"Montserrat-Regular";
+    margin-bottom: 33px;
+}
+.header-text{
+    font-size: 20px; 
+    font-family:"RobotoSlab-Regular";
+}
+.header-btn{    
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;  
+}
+.header-btn-text{
+    margin-top: 15px;
+    text-align: center;
+    font-family:"Montserrat-Regular";
+    font-size: 16px;    
+    text-transform: uppercase;
+}
+
+
+
+/*******/
+.service{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.service-header{
+    text-align: center;  
+}
+
+.service-title{      
+    font-family: "Montserrat-Regular";    
+    color: #555555;
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+ 
+}
+.line-50{
+    width: 50px;
+    height: 2px;
+    background-color: #555555;
+    margin: 28px auto;
+       
+}
+.service-title-alt{   
+  
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 16px;   
+    line-height: 24px;
+    margin-bottom: 70px;
+}
+
+.icon-service{
+
+
+    font-family: 'FontAwesome-Webfont';
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #c0301c;
+    height: 88px;
+    width: 88px;
+    margin: 0 auto;
+    border: 2px solid #dddddd;
+    border-radius: 50%;
+    color: #ffffff;
+}
+.icon-service-inverse{
+    font-family: 'FontAwesome-Webfont';
+    font-size: 40px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+    height: 88px;
+    width: 88px;
+    margin: 0 auto;
+    border: 2px solid #c0301c;
+    border-radius: 50%;
+    color: #ffffff;
+}
+ .fa-font {
+    font-family: 'FontAwesome-Webfont';
+    font-size: 40px;
+    line-height: 90px;
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+}
+.single-service{
+    
+    justify-content:space-between;
+}
+.single-service-title-block{
+/* S
+width: 152px;
+height: 11px;*/
+    text-align: center;
+    color: #555555;
+    font-family:"Montserrat-Regular";
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.single-service-text-block{
+    text-align: center;
+    /* Style for "Lorem ipsu" */
+    width: 346px;
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+/***************************/
+.about-us{
+    background-color:  #f8f8f8;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-us-header{
+    /* S
+width: 107px;
+height: 16px;*/
+    color: #555555;
+    font-family:"Montserrat-Regular";
+    font-size: 20px;
+    text-align: center;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.about-us-header-alt{
+    text-align: center;
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 16px;
+ 
+    line-height: 24px;
+}
+.about-us-content{
+    /* Style for "Lorem ipsu" */
+    width: 553px;
+
+    color: #555555;
+    font-family:"RobotoSlab-Regular"; /******??????***/
+    font-size: 14px;
+
+    line-height: 24px;
+}
+.content{
+    justify-content:space-between;
+    margin: 70px auto;
+}
+.slide-photo {
+    height: 310px;
+    justify-content:space-between;
+}
+.team-member{
+    /* Style for "Member-1 c" */
+    width: 263px;
+    height: 310px;
+    position: relative;
+}
+.img-arrow, .img-arrow-reverse{
+    position: absolute;
+}
+.member-photo{
+    /* Style for "Team Pic" */
+    width: 263px;
+    height: 250px;
+}
+.member-desript{
+    /* Style for "Name & Pos" */
+   padding-top:20px;
+    text-align: center;
+}
+.name-member{
+    /* Style for "Md. Khalil" */
+
+    color: #555555;
+    font-family:"Montserrat-Regular";
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.post-member{
+    /* Style for "Head of Id" */
+
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 13px;
+    line-height: 24px;
+}
+
+
+/**************/
+.works{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.works-header{
+
+    text-align: center;
+  
+    color: #555555;
+    font-family:"Montserrat-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+.works-header-menu{
+    margin: 0 auto;
+    width: 417px;
+    justify-content: space-between;
+
+}
+.works-menu-link{
+    text-decoration: none;    
+
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 16px;
+    line-height: 24px;
+
+    color: #555555;
+
+}
+.works-menu-link:hover{
+    color:#c0301c;
+}
+
