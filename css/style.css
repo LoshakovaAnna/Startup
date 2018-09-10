@@ -415,3 +415,129 @@ height: 16px;*/
     padding-top: 7px;
     margin-top:27px;
 }
+
+/**************/
+
+.call-to-action-parallax{
+    
+height: 369px;
+background-image: url("../img/call-to-action-parallax.png");
+background-repeat:  no-repeat;
+    background-size: cover;
+    min-width: 1600px;
+
+}
+.red-shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(195, 101, 83, 0.6);
+    color: #ffffff;
+    text-align: center;
+
+}
+.call-to-action-text{
+    padding-top: 90px;
+    padding-bottom: 43px;
+    font-family:"RobotoSlab-Regular";  
+    font-size: 30px;
+    line-height: 44px;
+}
+.call-to-action-btn{
+    width: 180px;
+    height: 46px;
+    border-radius: 2px;
+    border: 2px solid #ffffff;
+    margin:0 auto;
+
+    font-family:"RobotoSlab-Regular";  
+    font-size: 18px;
+    line-height: 46px;
+    text-transform: uppercase;
+}
+.paralax-blog-header{
+    text-align: center;
+    color: #555555;
+    line-height: 24px;
+    padding-top:90px;
+    padding-bottom: 64px ;
+}
+.paralax-blog_title{     
+    font-family: "Montserrat-Regular";
+    font-size: 20px;   
+    text-transform: uppercase;    
+}
+.paralax-blog_subtitle{  
+    font-family:"RobotoSlab-Regular";  
+    font-size: 16px;    
+}
+
+.paralax-blog-post_left_column{
+ 
+    width: 460px;
+    height: 322px;
+}
+.paralax-blog-post_right_column {
+    padding-left: 40px;
+}
+.paralax-blog-post_date{
+    width: 76px;
+    height: 76px;
+    border: 2px solid #555555;
+    text-align: center;
+   
+
+        color: #777777;
+        font-family: "Montserrat-Bold";
+        font-size: 14px;
+        line-height: 20px;
+        text-transform: uppercase;
+        /* Text style for "18" */
+        font-size: 24px;
+        letter-spacing: 2.4px;
+        /* Text style for "Oct" */
+        letter-spacing: 1.4px;
+}
+
+.paralax-blog-post_title_text{
+  width: 100%;
+  padding-left: 28px;
+    color: #555555;
+    font-family: "Montserrat-Regular";
+    font-size: 16px;
+    line-height: 24px;
+    text-transform: uppercase;
+    }
+
+.text2{
+         font-family: "Roboto Slab";
+    font-size: 13px;
+    font-style: italic;
+    line-height: 24px;
+    color: #777777;
+    }
+.paralax-blog-post_title_text a{
+    color: #777777;
+    text-decoration: none;
+}
+.paralax-blog-post_title_text a:hover{
+    color: #c0301c;
+}
+
+
+.paralax-blog-post_content{
+    
+    color: #555555;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.paralax-blog-post_read-more{
+   
+    color: #c0301c;
+    font-family: "Roboto Slab";
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
