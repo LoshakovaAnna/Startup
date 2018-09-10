@@ -681,3 +681,14 @@ line-height: 20px;
 /* Text style for "*," */
 color: #c0301c;
 }
+.text9{
+    /* Style for "© 2015 Sta" */
+width: 272px;
+height: 11px;
+color: #ffffff;
+font-family:"RobotoSlab-Regular";
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+text-transform: uppercase;
+}
