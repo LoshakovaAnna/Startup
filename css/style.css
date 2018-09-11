@@ -461,7 +461,7 @@ background-repeat:  no-repeat;
 
 
 .paralax-blog{
-    padding-bottom: 102px;
+    padding-bottom: 100px;
 }
 .paralax-blog-header{
     text-align: center;
@@ -595,100 +595,199 @@ background-repeat:  no-repeat;
 /******************************/
 .clients{
     background-color: #f8f8f8;
+    padding-bottom: 100px;
+    padding-top: 97px;
+
+}
+.clients-logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+   
+    padding-bottom: 70px;
+
+    width: 899px;
+    height: 50px;
 }
 
-.text1{
+.clients-excerption{
+    text-align: center;
+}
+
+
+.clients-excerption-text{
     /* Style for "Hvaing pla" */
-width: 763px;
-height: 109px;
+
 color: #555555;
 font-family:"RobotoSlab-Regular";
 font-size: 18px;
-font-weight: 400;
 font-style: italic;
 line-height: 30px;
 /* Text style for "John Doe," */
 
 }
-.text2{
+.clients-excerption-person{
+    padding-top: 40px;
     font-size: 20px;
+
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+
+    line-height: 30px;
+}
+.clients-excerption-circles{
+    
+width: 54px;
+margin: 0 auto;
+padding-top: 40px;
+}
+.clients-circle{
+width: 13px;
+height: 13px;
+background-color: #dddddd;
+border-radius: 50%;
+}
+.clients-circle:hover{
+    background-color: #c0301c;
 }
 
-.text3{
-/* Style for "Get in tou" */
-width: 146px;
-height: 16px;
-color: #555555;
-font-family:"Montserrat-Regular";
-font-size: 20px;
-font-weight: 400;
-line-height: 24px;
-text-transform: uppercase;    
+
+
+
+
+.contact{
+    padding-top: 100px;
+
 }
-.text4{
-    /* Style for "Lorem ipsu" */
-width: 462px;
-height: 17px;
-color: #555555;
-font-family:"RobotoSlab-Regular";
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+.contact-title{
+    text-align: center;
+
+    color: #555555;
+    font-family:"Montserrat-Regular";
+    font-size: 20px;
+    line-height: 24px;
+    text-transform: uppercase;  
+}
+.contact-subtitle{
+    font-family:"RobotoSlab-Regular";
+    font-size: 16px;
+    text-transform: none;
+}
+.icon-contact{
+    font-family: "FontAwesome-Webfont";
+    font-size: 18px;
+    color: #555555;
 }
 
-.text5{
+.contact-form{
+    padding-top: 70px;
+}
+.contact-block{
     /* Style for "Address" */
-width: 69px;
-height: 10px;
-color: #555555;
-font-family:"Montserrat-Regular";
-font-size: 14px;
-font-weight: 400;
-line-height: 30px;
-text-transform: uppercase;
+    width: 232px;
+    height: 56px;
+    padding-bottom: 33px;
 }
-.text6{
-    /* Style for "312, 7th A" */
-width: 205px;
-height: 32px;
-color: #555555;
-font-family:"RobotoSlab-Regular";
-font-size: 12px;
-font-weight: 400;
-line-height: 20px;
+.contact-block-title{
+    width: 206px;
+    color: #555555;
+    font-family:"Montserrat-Regular";
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
 }
-.text7{
-    /* Style for "Your E-mai" */
-width: 80px;
-height: 10px;
-color: #555555;
-font-family:"RobotoSlab-Regular";
-font-size: 12px;
-font-weight: 400;
-line-height: 20px;
-text-transform: uppercase;
+.contact-block-info{
+    width: 206px;
+    padding-top: 17px;
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 12px;
+    line-height: 20px;
 }
 
-.text8{
-    /* Style for "* We’ll co" */
-width: 342px;
-height: 12px;
-color: #555555;
-font-family:"RobotoSlab-Regular";
-font-size: 12px;
-font-weight: 400;
-line-height: 20px;
-/* Text style for "*," */
-color: #c0301c;
+.contact-form{
+    width:731px;
+    height: 300px;
+    
+
+}
+.contact-form-font{
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 12px;
+    line-height: 20px;
+    text-transform: uppercase;
+    background-color: #ffffff;
+}
+.contact-input {
+    
+    width: 350px;
+    height: 45px;
+    border: 1px solid #555555;
+    
+}
+.contact-textarea{
+    width: 730px;
+    height: 105px;
+    border: 1px solid #555555;
+}
+.contact-submit{
+    /* Style for "Rectangle" */
+width: 170px;
+height: 44px;
+border: 1px solid #555555;
+}
+
+
+.contact-form-font-alt{
+        /* Style for "* We’ll co" */
+    width: 342px;
+    height: 12px;
+    color: #555555;
+    font-family:"RobotoSlab-Regular";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    /* Text style for "*," 
+    color: #c0301c;*/
+}
+
+
+
+.footer{
+    /* Style for "Rectangle" */
+min-width: 1600px;
+height: 307px;
+background-color: #c0301c;
+text-align: center;
+
 }
 .text9{
-    /* Style for "© 2015 Sta" */
-width: 272px;
-height: 11px;
+  
 color: #ffffff;
 font-family:"RobotoSlab-Regular";
 font-size: 12px;
 font-weight: 400;
 line-height: 20px;
 text-transform: uppercase;
+}
+.footer-circle-row{
+    width: 164px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.circle-twitter-icon{
+   
+width: 35px;
+height: 35px;
+border: 2px solid #ffffff;
+border-radius: 50%;
+text-align: center;
+}
+.icon-twitter{
+    color: #ffffff;
+    line-height: 35px;
+
 }
