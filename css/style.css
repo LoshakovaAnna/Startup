@@ -69,6 +69,9 @@
     letter-spacing: 0.35px;
     line-height: 36px;
 }
+.menu-link:hover{
+    text-decoration: underline;
+}
 .menu-nav{  
     width: 540px;
     margin-left: 510px;  
