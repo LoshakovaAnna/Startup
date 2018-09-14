@@ -384,7 +384,7 @@
     border-radius: 2px;
     border: 2px solid #ffffff;
     margin:0 auto;
-
+    cursor: pointer;
     font-family:"RobotoSlab-Regular";  
     font-size: 18px;
     line-height: 46px;
