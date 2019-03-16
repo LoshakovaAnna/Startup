@@ -1,6 +1,6 @@
-@import url("fonts.css") all;
-@import url("reset.css") all;
-@import url("font-awesome.min.css") all;
+@import url("./fonts.css") all;
+@import url("./reset.css") all;
+@import url("./font-awesome.min.css") all;
 
 .centr-position{
     width:1140px;
@@ -428,9 +428,6 @@
     padding-left: 40px;
 }
 
-.paralax-blog-post_date-border{
-    
-}
 .paralax-blog-post_date{
     width: 72px;
     height: 72px;
@@ -615,8 +612,7 @@
     font-size: 12px;
     line-height: 44px;
     text-transform: uppercase;
-    background-color: #ffffff;
-   
+    background-color: #ffffff;   
 }
 .row-contact{
     margin-bottom: 21px;
@@ -655,8 +651,7 @@
     color: #555555;
     font-family:"RobotoSlab-Regular";
     font-size: 12px;
-    line-height: 44px;
-  
+    line-height: 44px;  
 }
 .contact-form-text-red{
     color: #c0301c;
